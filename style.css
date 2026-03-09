@@ -1,0 +1,54 @@
+#demo {
+  margin-top: 90px;
+}
+
+.pen {
+  /* margin: 10px; */
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  background-color: darkslategrey;
+  margin-top: 60px;
+}
+body {
+  height: 3000px;
+}
+/* //////////////////// */
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.complete {
+  color: rgb(36, 228, 36);
+}
+
+.delete {
+  color: rgb(219, 40, 40);
+}
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+i {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* /////////////////////////////////////////// */
+.navbar {
+  position: fixed;
+  z-index: 99999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s linear;
+}
